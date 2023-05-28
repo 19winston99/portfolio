@@ -1,0 +1,101 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.program-language-container:hover {
+    box-shadow: 1px 1px 3px #252525;
+    cursor: default;
+}
+
+.border-radius {
+    border-radius: 10px;
+}
+
+.shadow-small {
+    box-shadow: 1px 1px 10px #252525;
+}
+
+.icon {
+    font-size: 2em;
+}
+
+.github {
+    color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.photo {
+    height: 15em;
+    width: 15em;
+    object-fit: cover;
+    border-radius: 50%;
+    animation: flip 2s infinite;
+    animation-delay: calc(0.2s * var(--x));
+}
+
+@keyframes flip {
+
+    0%,
+    80% {
+        transform: rotateY(360deg);
+    }
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.background-description {
+    padding: 1em;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+#image-front {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    border-radius: 0% 50%;
+}
+
+#image-back {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    border-radius: 50% 0%;
+}
+
+#navbar-image {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    object-fit: cover;
+}
+
+#introduction-container {
+    transition: 0.6s ease-in-out;
+    padding: 3em;
+    width: 15em;
+    height: 15em;
+    background: #f3f3f3;
+    border-radius: 0% 50%;
+    box-shadow: 1em 1em #252525;
+}
+
+#introduction-container:hover {
+    transition: 0.6s ease-in-out;
+    border-radius: 50% 0%;
+}
+
+#icon-footer-container {
+    width: 7em;
+}
