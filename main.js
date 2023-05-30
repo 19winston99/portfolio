@@ -23,3 +23,17 @@ function addAnimation() {
         button.classList.add('animate__rubberBand');
     }, 10);
 }
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.utils.toArray(".animated-element").forEach((element) => {
+  gsap.from(element, {
+    scrollTrigger: {
+      trigger: element,
+      toggleActions: "restart none none none",
+    },
+    opacity: 0,
+    y: 50,
+    duration: 1,
+  });
+});
