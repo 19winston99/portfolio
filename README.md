@@ -1,0 +1,1 @@
+A website dedicated to showcasing my personal profile and promoting my projects, implemented using the core technologies of HTML, CSS, and JavaScript without the use of external frameworks or libraries.
