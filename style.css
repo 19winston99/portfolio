@@ -34,8 +34,8 @@ body {
 }
 
 .photo {
-    height: 15em;
-    width: 15em;
+    height: 10em;
+    width: 10em;
     object-fit: cover;
     border-radius: 50%;
     animation: flip 2s infinite;
@@ -86,6 +86,10 @@ body {
     margin: auto;
     margin-top: 10vh;
     /* Aggiunge uno spazio in alto per evitare sovrapposizioni con la barra di navigazione */
+}
+
+.image-social-container {
+    width: 50em;
 }
 
 #image-front {
